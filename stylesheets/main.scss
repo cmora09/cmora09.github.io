@@ -1,0 +1,70 @@
+$nav-font-size: 2.5em;
+$nav-font-color: #E08835;
+
+
+@import 'header';
+
+body{
+	background-color: white;
+	margin: 0;	
+	nav{
+		float:left;
+		display: inline-block;
+		margin: 0;
+		font-family: 'Poiret One', cursive;
+		font-size: 2em;
+			ul{
+				display: inline-block;
+				list-style: none;
+				padding-top: 20px;
+				li{	
+					padding-bottom: 50px;
+					margin: 0;
+					font-weight: bold;
+					.nav{
+						color: $nav-font-color;
+						margin: 0;
+						text-decoration: none;
+						&:hover{
+						color: black;
+						}	
+					}	
+				}
+			}
+			.icon{
+				display: inline-block;
+				width: 25px;
+				height: 25px;
+				&:hover{
+					padding-bottom: 5px;
+					border-bottom: solid 3px $nav-font-color;
+				}
+			}
+			
+		}
+
+	.projects{
+		margin-left: 90px;
+		display: inline-block;
+		float: left;
+		.border{
+			display: inline-block;
+
+			.pa{
+				margin-top: 20px;
+				.pimg{
+					padding: 30px;
+					float: left;
+					margin-top: 50px;
+					margin-left: -2px;
+					width: 250px;
+					height: 175px;
+					border: solid .25px black;
+				}
+			}
+		}
+	}
+	.pimg:hover{
+		opacity: 0.1;
+	}
+}
