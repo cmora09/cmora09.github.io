@@ -10,7 +10,6 @@ header {
     text-align: center; }
 
 body {
-  background-color: white;
   margin: 0; }
   body nav {
     float: left;
@@ -55,7 +54,5 @@ body {
           width: 250px;
           height: 175px;
           border: solid .25px black; }
-  body .pimg:hover {
-    opacity: 0.1; }
 
 /*# sourceMappingURL=main.css.map */

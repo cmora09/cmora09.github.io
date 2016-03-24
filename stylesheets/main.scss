@@ -5,7 +5,6 @@ $nav-font-color: #E08835;
 @import 'header';
 
 body{
-	background-color: white;
 	margin: 0;	
 	nav{
 		float:left;
@@ -49,7 +48,6 @@ body{
 		float: left;
 		.border{
 			display: inline-block;
-
 			.pa{
 				margin-top: 20px;
 				.pimg{
@@ -63,8 +61,5 @@ body{
 				}
 			}
 		}
-	}
-	.pimg:hover{
-		opacity: 0.1;
 	}
 }
