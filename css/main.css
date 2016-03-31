@@ -1,58 +1,57 @@
-header {
-  margin-top: 2.5em;
-  width: 100%; }
-  header .welcome {
-    font-family: 'Poiret One', cursive;
-    color: #E08835;
-    font-size: 2.5em;
-    font-weight: bold;
-    margin: 0;
-    text-align: center; }
-
 body {
-  margin: 0; }
-  body nav {
-    float: left;
-    display: inline-block;
-    margin: 0;
+  background-color: #F1F3F1;
+  width: 100%; }
+  body .welcome {
+    text-align: center;
+    font-size: 2em;
     font-family: 'Poiret One', cursive;
-    font-size: 2em; }
+    color: #E08835; }
+  body nav {
+    width: 50%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto; }
     body nav ul {
       display: inline-block;
       list-style: none;
-      padding-top: 20px; }
+      margin-left: 32.5%; }
       body nav ul li {
+        display: inline-block;
         padding-bottom: 50px;
-        margin: 0;
-        font-weight: bold; }
-        body nav ul li .nav {
-          color: #E08835;
-          margin: 0;
-          text-decoration: none; }
-          body nav ul li .nav:hover {
-            color: black; }
-    body nav .icon {
-      display: inline-block;
-      width: 25px;
-      height: 25px; }
-      body nav .icon:hover {
-        padding-bottom: 5px;
-        border-bottom: solid 3px #E08835; }
-  body .projects {
-    margin-left: 90px;
+        float: left; }
+  body .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; }
+    body .icon:hover {
+      padding-bottom: 5px;
+      border-bottom: solid 2px #E08835; }
+
+.wrapper {
+  width: 950px;
+  margin: 0 auto; }
+  .wrapper .projects {
+    height: 50vh;
     display: inline-block;
-    float: left; }
-    body .projects .border {
-      display: inline-block; }
-      body .projects .border .pa {
-        margin-top: 20px; }
-        body .projects .border .pa .pimg {
-          padding: 30px;
-          float: left;
-          margin-top: 50px;
-          margin-left: -2px;
-          width: 250px;
-          height: 175px;
-          border: solid .25px black; }
+    margin: 0 auto; }
+    .wrapper .projects .pa {
+      margin-top: 20px; }
+      .wrapper .projects .pa .pimg {
+        padding: 30px;
+        margin-top: 50px;
+        width: 250px;
+        height: 175px;
+        border: solid .25px black; }
+  .wrapper #about {
+    margin: 0 auto;
+    font-family: 'Rokkitt', serif;
+    width: 50%; }
+    .wrapper #about .about {
+      text-align: center; }
+    .wrapper #about .text {
+      font-size: 1.25em; }
+    .wrapper #about span {
+      color: #E08835;
+      font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

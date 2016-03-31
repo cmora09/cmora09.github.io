@@ -1,65 +1,75 @@
-$nav-font-size: 2.5em;
+$nav-font-size: 2em;
 $nav-font-color: #E08835;
 
-
-@import 'header';
-
 body{
-	margin: 0;	
-	nav{
-		float:left;
-		display: inline-block;
-		margin: 0;
+	background-color:#F1F3F1;
+	width: 100%;
+	.welcome{
+		text-align: center;
+		font-size: $nav-font-size;
 		font-family: 'Poiret One', cursive;
-		font-size: 2em;
-			ul{
-				display: inline-block;
-				list-style: none;
-				padding-top: 20px;
-				li{	
-					padding-bottom: 50px;
-					margin: 0;
-					font-weight: bold;
-					.nav{
-						color: $nav-font-color;
-						margin: 0;
-						text-decoration: none;
-						&:hover{
-						color: black;
-						}	
-					}	
-				}
-			}
-			.icon{
-				display: inline-block;
-				width: 25px;
-				height: 25px;
-				&:hover{
-					padding-bottom: 5px;
-					border-bottom: solid 3px $nav-font-color;
-				}
-			}
-			
-		}
-
-	.projects{
-		margin-left: 90px;
-		display: inline-block;
-		float: left;
-		.border{
-			display: inline-block;
-			.pa{
-				margin-top: 20px;
-				.pimg{
-					padding: 30px;
-					float: left;
-					margin-top: 50px;
-					margin-left: -2px;
-					width: 250px;
-					height: 175px;
-					border: solid .25px black;
-				}
+		color: $nav-font-color;
+	}
+	nav{
+		width:50%;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		ul{
+			display:inline-block;
+			list-style: none;
+			margin-left:32.5%;
+			li{	
+				display:inline-block;
+				padding-bottom: 50px;
+				float:left;
 			}
 		}
 	}
+	.icon{
+		width: 30px;
+		height: 30px;
+		margin-right: 20px;
+		&:hover{
+			padding-bottom: 5px;
+			border-bottom: solid 2px $nav-font-color;
+			}
+		}
+			
 }
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+	.projects{
+		height: 50vh;
+		display: inline-block;
+		margin: 0 auto;
+		.pa{
+			margin-top: 20px;
+			.pimg{
+				padding: 30px;
+				margin-top: 50px;
+				width: 250px;
+				height: 175px;
+				border: solid .25px black;
+			}
+		}
+	}
+#about{
+	margin: 0 auto;
+	font-family: 'Rokkitt', serif;
+	width: 50%;
+	.about{
+		text-align: center;
+		
+	}
+	.text{
+		font-size: 1.25em;
+	}
+	span{
+		color: $nav-font-color;
+		font-weight:bold;
+	}
+}
+}
+
