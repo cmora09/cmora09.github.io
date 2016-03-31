@@ -10,38 +10,12 @@ body{
 		font-family: 'Poiret One', cursive;
 		color: $nav-font-color;
 	}
-	nav{
-		width:50%;
-		height: 50px;
-		margin-left: auto;
-		margin-right: auto;
-		ul{
-			display:inline-block;
-			list-style: none;
-			margin-left:32.5%;
-			li{	
-				display:inline-block;
-				padding-bottom: 50px;
-				float:left;
-			}
-		}
-	}
-	.icon{
-		width: 30px;
-		height: 30px;
-		margin-right: 20px;
-		&:hover{
-			padding-bottom: 5px;
-			border-bottom: solid 2px $nav-font-color;
-			}
-		}
-			
 }
+			
 .wrapper{
 	width: 950px;
 	margin: 0 auto;
 	.projects{
-		height: 50vh;
 		display: inline-block;
 		margin: 0 auto;
 		.pa{
@@ -55,21 +29,40 @@ body{
 			}
 		}
 	}
-#about{
-	margin: 0 auto;
-	font-family: 'Rokkitt', serif;
-	width: 50%;
-	.about{
-		text-align: center;
-		
+	#about{
+		margin: 0 auto;
+		font-family: 'Rokkitt', serif;
+		width: 50%;
+		.about{
+			text-align: center;
+			
+		}
+		.text{
+			font-size: 1.25em;
+		}
+		span{
+			color: $nav-font-color;
+			font-weight:bold;
+		}
 	}
-	.text{
-		font-size: 1.25em;
-	}
-	span{
-		color: $nav-font-color;
-		font-weight:bold;
-	}
-}
+	.links{
+		width:25%;
+		height: 40px;
+		margin-left:auto;
+		margin-right:auto;
+		.linkdiv{
+			margin-left:16%;
+			margin-right:16%;
+			.icon{
+				width: 30px;
+				height: 30px;
+				margin-right: 20px;
+				&:hover{
+					padding-bottom: 5px;
+					border-bottom: solid 2px $nav-font-color;
+					}
+			}
+		}
+	}	
 }
 

@@ -6,32 +6,11 @@ body {
     font-size: 2em;
     font-family: 'Poiret One', cursive;
     color: #E08835; }
-  body nav {
-    width: 50%;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto; }
-    body nav ul {
-      display: inline-block;
-      list-style: none;
-      margin-left: 32.5%; }
-      body nav ul li {
-        display: inline-block;
-        padding-bottom: 50px;
-        float: left; }
-  body .icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px; }
-    body .icon:hover {
-      padding-bottom: 5px;
-      border-bottom: solid 2px #E08835; }
 
 .wrapper {
   width: 950px;
   margin: 0 auto; }
   .wrapper .projects {
-    height: 50vh;
     display: inline-block;
     margin: 0 auto; }
     .wrapper .projects .pa {
@@ -53,5 +32,20 @@ body {
     .wrapper #about span {
       color: #E08835;
       font-weight: bold; }
+  .wrapper .links {
+    width: 25%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto; }
+    .wrapper .links .linkdiv {
+      margin-left: 16%;
+      margin-right: 16%; }
+      .wrapper .links .linkdiv .icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+        .wrapper .links .linkdiv .icon:hover {
+          padding-bottom: 5px;
+          border-bottom: solid 2px #E08835; }
 
 /*# sourceMappingURL=main.css.map */
