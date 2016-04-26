@@ -26,6 +26,6 @@ $(document).ready(function(){
     	}, 125);
 	});
     $(".pimg").on("hover", function(){
-        $(".pimg").fadeTo(500,.8);
+        
     });
 });

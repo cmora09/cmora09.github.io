@@ -16,26 +16,64 @@ body{
 	width: 950px;
 	margin: 0 auto;
 	.projects{
-		display: inline-block;
-		margin: 0 auto;
-		.pa{
-			margin-top: 20px;
-			.pimg{
-				padding: 30px;
-				margin-top: 50px;
-				width: 250px;
-				height: 175px;
-				border: solid .25px black;
+		margin-left: 20px;
+		.project-list{
+			list-style: none;
+			padding: 0;
+			display: inline-block;
+			margin: 0 auto;
+			.project-li{
+				display: inline-block;
+				margin: 0;
+				padding-right: 5px;
+				float: left;
+				.pa{
+					margin: 0;
+					text-decoration: none;
+					.pimg{
+						display: inline-block;
+						width: 300px;
+						height: 225px;
+						border: solid .25px black;
+					}
+					.overlay{
+						position: relative;
+						width: 100%;
+						height: 95%;
+					}
+					.title{
+						text-align:center;			
+						font-family: 'Poiret One', cursive;
+						font-size: 1.25em;
+						color: white;
+						margin-top: 30%;
+					}
+					.overlay .caption{
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;
+						display:none;
+					}
+					.overlay:hover .caption{
+						display: block;
+    					background: rgba(0, 0, 0, .91);
+
+					}
+				}
 			}
 		}
 	}
+
 	#about{
 		margin: 0 auto;
 		font-family: 'Rokkitt', serif;
 		width: 50%;
 		.about{
 			text-align: center;
-			
 		}
 		.text{
 			font-size: 1.25em;
