@@ -1,4 +1,4 @@
-$nav-font-size: 2em;
+$nav-font-size: 3em;
 $nav-font-color: #E08835;
 
 body{
@@ -7,7 +7,9 @@ body{
 		text-align: center;
 		font-size: $nav-font-size;
 		font-family: 'Poiret One', cursive;
+		font-weight: bolder;
 		color: $nav-font-color;
+		margin-bottom: 20vh;
 	}
 }
 			
@@ -86,21 +88,23 @@ body{
 		}
 	}
 	.links{
-		width:25%;
 		height: 40px;
-		margin-left:auto;
-		margin-right:auto;
-		.linkdiv{
-			margin-left:16%;
-			margin-right:16%;
+		.link-ul{
+			text-align: center;
+			margin-left:auto;
+			margin-right:auto;
+			padding: 0;
+			list-style: none;
+			.icon-li{
+				display: inline-block;
 			.icon{
 				width: 30px;
 				height: 30px;
 				margin-right: 20px;
 				&:hover{
-					padding-bottom: 5px;
 					border-bottom: solid 2px $nav-font-color;
 					}
+				}
 			}
 		}
 	}	

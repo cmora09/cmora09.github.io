@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("body").fadeIn(750);
 	
     $(function () {
-    var greeting = "Chris Mora";
+    var greeting = "CHRIS MORA";
     var welcome = $(".welcome");
     var count = 0;
     //set interval used to perform this function according to the milliseconds given. 125 in this case.

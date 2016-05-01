@@ -2,9 +2,11 @@ body {
   background-color: #F1F3F1; }
   body .welcome {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Poiret One', cursive;
-    color: #E08835; }
+    font-weight: bolder;
+    color: #E08835;
+    margin-bottom: 20vh; }
 
 .wrapper {
   width: 100%;
@@ -66,19 +68,20 @@ body {
       color: #E08835;
       font-weight: bold; }
   .wrapper .links {
-    width: 25%;
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto; }
-    .wrapper .links .linkdiv {
-      margin-left: 16%;
-      margin-right: 16%; }
-      .wrapper .links .linkdiv .icon {
-        width: 30px;
-        height: 30px;
-        margin-right: 20px; }
-        .wrapper .links .linkdiv .icon:hover {
-          padding-bottom: 5px;
-          border-bottom: solid 2px #E08835; }
+    height: 40px; }
+    .wrapper .links .link-ul {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      list-style: none; }
+      .wrapper .links .link-ul .icon-li {
+        display: inline-block; }
+        .wrapper .links .link-ul .icon-li .icon {
+          width: 30px;
+          height: 30px;
+          margin-right: 20px; }
+          .wrapper .links .link-ul .icon-li .icon:hover {
+            border-bottom: solid 2px #E08835; }
 
 /*# sourceMappingURL=main.css.map */
