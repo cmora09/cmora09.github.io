@@ -3,7 +3,6 @@ $nav-font-color: #E08835;
 
 body{
 	background-color:#F1F3F1;
-	width: 100%;
 	.welcome{
 		text-align: center;
 		font-size: $nav-font-size;
@@ -13,10 +12,11 @@ body{
 }
 			
 .wrapper{
-	width: 950px;
+	width: 100%;
 	margin: 0 auto;
 	.projects{
-		margin-left: 20px;
+		display: inline-block;
+		margin-left: 40px;
 		.project-list{
 			list-style: none;
 			padding: 0;
@@ -69,9 +69,11 @@ body{
 	}
 
 	#about{
+		float:left;
 		margin: 0 auto;
 		font-family: 'Rokkitt', serif;
-		width: 50%;
+		width: 275px;
+		height: 100%;
 		.about{
 			text-align: center;
 		}

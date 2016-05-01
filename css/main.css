@@ -1,6 +1,5 @@
 body {
-  background-color: #F1F3F1;
-  width: 100%; }
+  background-color: #F1F3F1; }
   body .welcome {
     text-align: center;
     font-size: 2em;
@@ -8,10 +7,11 @@ body {
     color: #E08835; }
 
 .wrapper {
-  width: 950px;
+  width: 100%;
   margin: 0 auto; }
   .wrapper .projects {
-    margin-left: 20px; }
+    display: inline-block;
+    margin-left: 40px; }
     .wrapper .projects .project-list {
       list-style: none;
       padding: 0;
@@ -53,9 +53,11 @@ body {
             display: block;
             background: rgba(0, 0, 0, 0.91); }
   .wrapper #about {
+    float: left;
     margin: 0 auto;
     font-family: 'Rokkitt', serif;
-    width: 50%; }
+    width: 275px;
+    height: 100%; }
     .wrapper #about .about {
       text-align: center; }
     .wrapper #about .text {
