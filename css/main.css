@@ -1,93 +1,119 @@
 body {
   margin: 0;
-  background-color: #F1F3F1; }
+  width: 100%; }
+  body nav {
+    width: 100%;
+    height: 50px; }
+    body nav .nav-link {
+      color: #60157A;
+      text-decoration: none;
+      font-size: 2.5em;
+      font-weight: bolder;
+      font-family: 'Poiret One', cursive;
+      float: right; }
+      body nav .nav-link:hover {
+        color: gray; }
   body .welcome {
     text-align: center;
     font-size: 3em;
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
-    color: #E08835;
-    margin-bottom: 20vh; }
-
-.wrapper {
-  width: 1080px;
-  margin: 0 auto; }
-  .wrapper .projects {
-    width: 880px;
+    color: #60157A; }
+  body .wrapper {
     display: inline-block;
-    text-align: center;
+    width: 100%;
     margin-left: auto;
     margin-right: auto; }
-    .wrapper .projects .project-list {
-      list-style: none;
-      padding: 0;
+    body .wrapper #about {
+      background: url("../images/port_background.jpg");
+      background-size: cover;
       display: inline-block;
-      margin: 0 auto; }
-      .wrapper .projects .project-list .project-li {
-        display: inline-block;
-        margin: 0;
-        padding-right: 5px;
-        float: left; }
-        .wrapper .projects .project-list .project-li .pa {
-          margin: 0;
-          text-decoration: none; }
-          .wrapper .projects .project-list .project-li .pa .pimg {
-            display: inline-block;
-            width: 275px;
-            height: 225px;
-            border: solid .25px black; }
-          .wrapper .projects .project-list .project-li .pa .overlay {
-            position: relative;
-            width: 100%;
-            height: 95%; }
-          .wrapper .projects .project-list .project-li .pa .title {
-            text-align: center;
-            font-family: 'Poiret One', cursive;
-            font-size: 1.25em;
-            color: white;
-            margin-top: 30%; }
-          .wrapper .projects .project-list .project-li .pa .overlay .caption {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            display: none; }
-          .wrapper .projects .project-list .project-li .pa .overlay:hover .caption {
-            display: block;
-            background: rgba(0, 0, 0, 0.91); }
-  .wrapper #about {
-    display: inline-block;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Rokkitt', serif;
-    width: 200px;
-    height: 100%; }
-    .wrapper #about .about {
-      text-align: center; }
-    .wrapper #about .text {
-      font-size: 1.25em; }
-    .wrapper #about span {
-      color: #E08835;
-      font-weight: bold; }
-  .wrapper .links {
-    height: 40px; }
-    .wrapper .links .link-ul {
+      font-family: 'Rokkitt', serif;
+      width: 100%;
+      height: 90vh;
+      border-top: solid 2px black;
+      border-bottom: solid 2px black; }
+      body .wrapper #about .about-container {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto; }
+        body .wrapper #about .about-container .about {
+          text-align: center; }
+        body .wrapper #about .about-container .text {
+          display: inline-block;
+          text-align: center;
+          font-size: 1.75em;
+          margin: 0; }
+      body .wrapper #about span {
+        color: #60157A;
+        font-weight: bold; }
+    body .wrapper #projects {
+      width: 100%;
+      display: inline-block;
       text-align: center;
       margin-left: auto;
-      margin-right: auto;
-      padding: 0;
-      list-style: none; }
-      .wrapper .links .link-ul .icon-li {
-        display: inline-block; }
-        .wrapper .links .link-ul .icon-li .icon {
-          width: 30px;
-          height: 30px;
-          margin-right: 20px; }
-          .wrapper .links .link-ul .icon-li .icon:hover {
-            border-bottom: solid 2px #E08835; }
+      margin-right: auto; }
+      body .wrapper #projects .project-h {
+        font-family: 'Poiret One', cursive;
+        color: #60157A;
+        font-size: 3em; }
+      body .wrapper #projects .project-list {
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto; }
+        body .wrapper #projects .project-list .project-li {
+          display: inline-block;
+          margin: 0;
+          padding-right: 5px;
+          float: left; }
+          body .wrapper #projects .project-list .project-li .pa {
+            margin: 0;
+            text-decoration: none; }
+            body .wrapper #projects .project-list .project-li .pa .pimg {
+              width: 275px;
+              height: 225px;
+              border: solid .25px black; }
+            body .wrapper #projects .project-list .project-li .pa .overlay {
+              position: relative;
+              width: 100%;
+              height: 95%; }
+            body .wrapper #projects .project-list .project-li .pa .title {
+              text-align: center;
+              font-family: 'Poiret One', cursive;
+              font-size: 1.25em;
+              color: white;
+              margin-top: 30%; }
+            body .wrapper #projects .project-list .project-li .pa .overlay .caption {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              display: none; }
+            body .wrapper #projects .project-list .project-li .pa .overlay:hover .caption {
+              display: block;
+              background: rgba(0, 0, 0, 0.91); }
+    body .wrapper .links {
+      height: 40px; }
+      body .wrapper .links .link-ul {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        list-style: none; }
+        body .wrapper .links .link-ul .icon-li {
+          display: inline-block; }
+          body .wrapper .links .link-ul .icon-li .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 20px; }
+            body .wrapper .links .link-ul .icon-li .icon:hover {
+              padding-bottom: 5px;
+              border-bottom: solid 3px white;
+              border-radius: 2px; }
 
 /*# sourceMappingURL=main.css.map */

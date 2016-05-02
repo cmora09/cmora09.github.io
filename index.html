@@ -4,17 +4,26 @@
 	<meta charset="utf-8">
 	<title>Chris Mora</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
 	<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<h1 class="welcome"></h1>
+	<header>
+		<nav>
+			<a class="nav-link"href="#projects">Projects</a>
+		</nav>
+	</header>
 	<div class="wrapper">
 		<div id="about">
-			<h1 class="about">About</h1>
-			<p class="about text">I'm Chris, fullstack web developer and fan of all things Javascript. I do other things as well such as <span>Ruby on Rails</span>, <span>Meteor.js</span>, <span>D3.js</span>, <span>HTML5</span>, and <span>CSS3</span>. 
+			<h1 class="welcome"></h1>
+			<div class="about-container">
+				<h1 class="about">About</h1>
+				<p class="about text">I'm Chris, fullstack web developer and fan of all things Javascript. I do other things as well such as <span>Ruby on Rails</span>, <span>Meteor.js</span>, <span>D3.js</span>, <span>HTML5</span>, and <span>CSS3</span>. 
+			</div>
 			<div class="links">
 				<ul class="link-ul">
 					<li class="icon-li">
@@ -35,7 +44,8 @@
 				</ul>
 			</div>
 		</div>
-		<div class="projects">
+		<div id="projects">
+			<h1 class="project-h">Projects</h1>
 			<ul class="project-list">
 				<li class="project-li">
 					<a class="pa" href="http://cmora09.github.io/MBanking">
