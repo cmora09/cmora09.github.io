@@ -10,12 +10,14 @@ body {
     margin-bottom: 20vh; }
 
 .wrapper {
-  width: 950px; }
+  width: 950px;
+  margin: 0 auto; }
   .wrapper .projects {
     width: 725px;
     display: inline-block;
     text-align: center;
-    margin-left: 20px; }
+    margin-left: auto;
+    margin-right: auto; }
     .wrapper .projects .project-list {
       list-style: none;
       padding: 0;
@@ -59,7 +61,8 @@ body {
   .wrapper #about {
     display: inline-block;
     float: left;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Rokkitt', serif;
     width: 175px;
     height: 100%; }
