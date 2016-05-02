@@ -10,10 +10,10 @@ body {
     margin-bottom: 20vh; }
 
 .wrapper {
-  width: 950px;
+  width: 1080px;
   margin: 0 auto; }
   .wrapper .projects {
-    width: 725px;
+    width: 880px;
     display: inline-block;
     text-align: center;
     margin-left: auto;
@@ -33,7 +33,7 @@ body {
           text-decoration: none; }
           .wrapper .projects .project-list .project-li .pa .pimg {
             display: inline-block;
-            width: 230px;
+            width: 275px;
             height: 225px;
             border: solid .25px black; }
           .wrapper .projects .project-list .project-li .pa .overlay {
@@ -64,7 +64,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Rokkitt', serif;
-    width: 175px;
+    width: 200px;
     height: 100%; }
     .wrapper #about .about {
       text-align: center; }
