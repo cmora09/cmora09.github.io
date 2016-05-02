@@ -23,7 +23,7 @@ $(document).ready(function(){
             appendTo(welcome).hide().fadeIn(300);
             count ++;
         }
-    	}, 125);
+    	}, 175);
 	});
     $(".pimg").on("hover", function(){
         
