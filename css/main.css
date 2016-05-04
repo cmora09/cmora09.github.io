@@ -36,6 +36,7 @@ body {
       border-bottom: solid 2px black; }
       body .wrapper #about .about-container {
         width: 400px;
+        margin-top: 20vh;
         margin-left: auto;
         margin-right: auto; }
         body .wrapper #about .about-container .about {
