@@ -2,9 +2,11 @@
 
 //used stackoverflow for the fade in function (http://jsfiddle.net/bGsa3/6/) with my notes
 $(document).ready(function(){	
-	 $('.parallax').parallax();
+	$('.parallax').parallax();
         $("body").hide();
         $("body").fadeIn(750);
+
+    $(".button-collapse").sideNav();
 	
     $(function () {
     var greeting = "Welcome";

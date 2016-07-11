@@ -6,6 +6,9 @@ body{
 span{
 	font-weight: bold;
 }
+.navbar-fixed{
+	opacity: .9;
+}
 .welcome{
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
