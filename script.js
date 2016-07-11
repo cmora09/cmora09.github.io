@@ -2,11 +2,12 @@
 
 //used stackoverflow for the fade in function (http://jsfiddle.net/bGsa3/6/) with my notes
 $(document).ready(function(){	
+	 $('.parallax').parallax();
         $("body").hide();
         $("body").fadeIn(750);
 	
     $(function () {
-    var greeting = "CHRIS MORA";
+    var greeting = "Welcome";
     var welcome = $(".welcome");
     var count = 0;
     //set interval used to perform this function according to the milliseconds given. 125 in this case.
@@ -20,12 +21,9 @@ $(document).ready(function(){
         else {
         	//this turns the text in the var greeting into text that can be put on to the html page.
             $('<span>').text(greeting[count]).
-            appendTo(welcome).hide().fadeIn(300);
+            appendTo(welcome).hide().fadeIn(2000);
             count ++;
         }
-    	}, 175);
+    	}, 150);
 	});
-    $(".pimg").on("hover", function(){
-        
-    });
 });

@@ -1,23 +1,27 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss
 
-Backtrace:
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `read'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
-/Users/CMora09/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss"; }
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+span{
+	font-weight: bold;
+}
+.welcome{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 3.5em;
+}
+.about-c{
+	background-color: black;
+	opacity: .6;
+	height: 175px;
+}
+.about-header{
+	font-weight: bold;
+}
+.header{
+	font-weight: bold;
+}
+.contact{
+	padding-right: 20px;
+}
