@@ -7,9 +7,16 @@ $(document).ready(function(){
         $("body").fadeIn(750);
 
     $(".button-collapse").sideNav();
+
+    $('.modal-trigger').leanModal();
+    $('#m1').openModal();
+    $('#m1').closeModal();
+
+    $('#m2').openModal();
+    $('#m2').closeModal();
 	
     $(function () {
-    var greeting = "Welcome";
+    var greeting = "WELCOME";
     var welcome = $(".welcome");
     var count = 0;
     //set interval used to perform this function according to the milliseconds given. 125 in this case.

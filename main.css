@@ -10,9 +10,9 @@ span{
 	opacity: .9;
 }
 .welcome{
-	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
 	font-size: 3.5em;
+	font-weight: lighter;
+	font-family: 'Josefin Sans', sans-serif;
 }
 .about-c{
 	background-color: black;
@@ -30,4 +30,7 @@ span{
 }
 .contact-p{
 	font-size: 1.1em;
+}
+.op{
+	opacity: .7;
 }
