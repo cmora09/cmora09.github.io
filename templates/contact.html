@@ -1,0 +1,41 @@
+<div class="row contact-div">
+	<div class="col-sm-12 col-md-12 mt-3">
+		<a href="https://github.com/cmora09">
+			<img class="contact-img" src="images/github.svg">
+		</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12 col-md-6 mt-3">	
+		<a href="https://www.linkedin.com/in/chrismora09">
+			<img class="contact-img" src="images/linkedin.svg">
+		</a>
+	</div>
+</div>
+	<div class="col-sm-12 col-md-5 offset-md-6 mt-3">
+		<a href="mailto:cmora09@gmail.com">
+			<img class="contact-img" src="images/email.svg">
+		</a>
+	</div>
+<script type="text/javascript">
+	var contactImgs = anime({
+		targets: ".contact-img",
+		translateY: [-300,0],
+		scale: [0,1],
+		rotate: '2turn',
+		duration: 2500,
+		delay: function(el,i,l){
+			return i * 800;
+		},
+	});
+	$('.contact-img').hover(function(){
+		currentImg = this;
+		anime({
+			targets: currentImg,
+			scale: [1,1.1],
+			rotate: [.01, 0],
+			duration: 1000,
+			loop: 1,
+		});
+	});
+</script>

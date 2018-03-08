@@ -1,38 +1,48 @@
-// http://pixelcog.github.io/parallax.js/ Using parallax effect from this site!!
+$("body").css({
+        backgroundColor: "#333",
+        transition: "background-color 2s ease"
+    }, 1000 );
+$("body").addClass("text-light");
 
-//used stackoverflow for the fade in function (http://jsfiddle.net/bGsa3/6/) with my notes
-$(document).ready(function(){	
-	$('.parallax').parallax();
-        $("body").hide();
-        $("body").fadeIn(750);
+function changeBgColor(linkId){
+    if(linkId == "home"){
+        $("body").css({
+            backgroundColor: "#333333",
+            transition: "background-color 1.5s ease"
+        }, 1000 );
+        $('body').removeAttr("class").addClass("text-light");
+    }else if(linkId == "about"){
+        $("body").css({
+            backgroundColor: "#2D0C3D",
+            transition: "background-color 1.5s ease"
+        }, 1000 );
+        $('body').removeAttr("class").addClass("text-light");
+    }else if(linkId == "work"){
+        $("body").css({
+            backgroundColor: "#002556",
+            transition: "background-color 1.5s ease"
+        }, 1000 );
+        $('body').removeAttr("class").addClass("text-dark");
+    }else if(linkId == "contact"){
+        $("body").css({
+            backgroundColor: "#A74B11",
+            transition: "background-color 1.5s ease"
+        }, 1000 );
+         $('body').removeAttr("class").addClass("text-light");
+    }
+}
 
-    $(".button-collapse").sideNav();
-
-    $('.modal-trigger').leanModal();
-    $('#m1').openModal();
-    $('#m1').closeModal();
-
-    $('#m2').openModal();
-    $('#m2').closeModal();
-	
-    $(function () {
-    var greeting = "WELCOME";
-    var welcome = $(".welcome");
-    var count = 0;
-    //set interval used to perform this function according to the milliseconds given. 125 in this case.
-    var i = setInterval(function () {
-    	// if function acts as a stopping mechanism once the count as exceeded the length of greeting. 
-    	// It won't crash the the browser but the greeting will continue to fade in.
-        if (count >= greeting.length) {
-            clearInterval(i);
-            welcome.text(greeting);
-        } 
-        else {
-        	//this turns the text in the var greeting into text that can be put on to the html page.
-            $('<span>').text(greeting[count]).
-            appendTo(welcome).hide().fadeIn(2000);
-            count ++;
-        }
-    	}, 150);
-	});
+var circle = anime ({
+    targets: ['.loader'],
+    rotate: '1turn',
+    duration: 25000,
+    loop: true,
+    easing: 'linear'
+});
+var letter = anime ({
+    targets: ['.brand-letter'],
+    rotate: -360,
+    duration: 25000,
+    loop: true,
+    easing: 'linear'
 });
