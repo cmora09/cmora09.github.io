@@ -25,14 +25,14 @@
 		$('.cards').fadeIn(400);
 		let card = anime({
 			targets: '.cards .card',
-			translateX: [-1100, 0],
-			rotateY: "1turn",
+			translateX: [-3500, 0],
+			rotateY: "2turn",
 			scale:[1.5,.95],
 			delay: function(el,i,l){
 				return (l-i) * 1500;
 			},
-			duration: 2000,
-			easing: 'easeInOutBack',
+			duration: 2500,
+			easing: 'easeInOutQuad',
 		});
 	});
 </script>
