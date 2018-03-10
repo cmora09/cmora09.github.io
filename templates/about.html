@@ -1,4 +1,22 @@
-<div class="container">
-	<h1 class="cover-heading">Cover your page.</h1>
-	<h2>derpy derpy derpy</h2>
+<div class="row">
+	<div class="col-sm-12 col-md-3">
+		<img class="profile-img mb-5" src="images/profile.jpg">
+	</div>
+	<div class="col-sm-12 col-md-9">
+		<h1 class="cover-heading text-left about-me-text" style="display: none;">About Me</h1>
+		<p class="text-left about-me-text" style="display: none;">
+		Born and raised in Queens, New York where I currently reside, I'm a web developer with an emphasis on front-end development. I'm at home learning and exploring new technologies, be it for the web or tech in general. </p>
+	</div>
 </div>
+
+<script type="text/javascript">
+	$('.about-me-text').fadeIn(1500);
+	anime({
+		targets: '.profile-img',
+		scale: [0,1],
+		duration: 1500,
+		easing: "easeOutExpo"
+	});
+
+
+</script>

@@ -28,13 +28,13 @@
 			return i * 800;
 		},
 	});
-	$('.contact-img').hover(function(){
+	$('.contact-img').on('mouseover', function(){
 		currentImg = this;
 		anime({
 			targets: currentImg,
-			scale: [1,1.1],
-			rotate: [.01, 0],
-			duration: 1000,
+			scale: [1.2,1],
+			rotate: [.08, 0],
+			duration: 2500,
 			loop: 1,
 		});
 	});

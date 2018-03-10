@@ -1,6 +1,5 @@
 <div class="row cards">
 	<div class="col-sm-12 col-md-6 mt-4">
-		<a class="card-link" href="">
 			<div class="card text-white border-light h-100">
 				<div class="card-header">Cinch</div>
 				<div class="card-body">
@@ -8,10 +7,8 @@
 					<a class="text-warning" href="https://cinch-app.herokuapp.com/">Cinch</a>
 				</div>
 			</div>
-		</a>
     </div>
 	<div class="col-sm-12 col-md-6 mt-4">
-		<a class="card-link" href="">
 		<div class="card text-white border-light h-100">
 			<div class="card-header">MBanking</div>
 			<div class="card-body">
@@ -19,21 +16,23 @@
 				<a class="text-warning" href="http://www.ckmora.com/MBanking/">MBanking</a>
 			</div>
 		</div>
-		</a>
 	</div>
 </div>
 
 <script type="text/javascript">
 	$(document).ready(function(){
+		$('.cards').fadeOut(0);
+		$('.cards').fadeIn(400);
 		let card = anime({
 			targets: '.cards .card',
-			translateX: [-1000, 0],
+			translateX: [-1100, 0],
+			rotateY: "1turn",
+			scale:[1.5,.95],
 			delay: function(el,i,l){
 				return (l-i) * 1500;
 			},
 			duration: 2000,
-			easing: 'easeOutExpo',
-			elasticity: 350,
+			easing: 'easeInOutBack',
 		});
 	});
 </script>

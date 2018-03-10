@@ -25,7 +25,7 @@ function changeBgColor(linkId){
         $('body').removeAttr("class").addClass("text-dark");
     }else if(linkId == "contact"){
         $("body").css({
-            backgroundColor: "#A74B11",
+            backgroundColor: "#C56411",
             transition: "background-color 1.5s ease"
         }, 1000 );
          $('body').removeAttr("class").addClass("text-light");
