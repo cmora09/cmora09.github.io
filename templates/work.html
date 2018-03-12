@@ -21,17 +21,15 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$('.cards').fadeOut(0);
-		$('.cards').fadeIn(400);
 		let card = anime({
 			targets: '.cards .card',
-			translateX: [-3500, 0],
-			rotateY: "2turn",
-			scale:[1.5,.95],
+			rotateY: "1turn",
+			opacity:[0,1],
+			scale:[1.2,.95],
 			delay: function(el,i,l){
-				return (l-i) * 1500;
+				return (l-i) * 1000;
 			},
-			duration: 2500,
+			duration: 800,
 			easing: 'easeInOutQuad',
 		});
 	});
